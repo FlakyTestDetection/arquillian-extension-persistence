@@ -6,7 +6,7 @@
   <parent>
     <groupId>org.jboss</groupId>
     <artifactId>jboss-parent</artifactId>
-    <version>22</version>
+    <version>25</version>
     <relativePath/>
   </parent>
 
@@ -24,7 +24,7 @@
   <description>Arquillian Persistence Extension Aggregator</description>
 
   <prerequisites>
-    <maven>3.2.1</maven>
+    <maven>3.3.9</maven>
   </prerequisites>
 
   <modules>
@@ -66,16 +66,16 @@
 
   <properties>
     <!-- Arquillian dependencies -->
-    <version.arquillian_core>1.1.13.Final</version.arquillian_core>
+    <version.arquillian_core>1.1.15.Final</version.arquillian_core>
     <version.arquillian_transaction>1.0.3.Final</version.arquillian_transaction>
-    <version.shrinkwrap.resolver>3.0.0-alpha-4</version.shrinkwrap.resolver>
+    <version.shrinkwrap.resolver>3.0.1</version.shrinkwrap.resolver>
     <version.jbossas_spec>3.0.1.Final</version.jbossas_spec>
-    <version.dbunit>2.5.3</version.dbunit>
+    <version.dbunit>2.5.4</version.dbunit>
     <version.mysql.driver>5.1.21</version.mysql.driver>
 
     <!-- Testing dependencies -->
     <version.findbugs.annotations>3.0.0</version.findbugs.annotations>
-    <version.assertj.core>2.6.0</version.assertj.core>
+    <version.assertj.core>2.8.0</version.assertj.core>
     <version.mockito>1.10.19</version.mockito>
 
     <!-- Containers -->
